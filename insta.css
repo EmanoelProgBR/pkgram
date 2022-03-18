@@ -659,6 +659,10 @@ main{
 }
 
 @media (max-width: 735px) {
+    .container{
+        max-width: 735px!important;
+    }
+
     .separate{
         width: 50%;
     }
@@ -681,6 +685,10 @@ main{
 }
 
 @media (max-width:640px){
+    .container{
+        max-width: 640px!important;
+    }
+
     .separate2{
         display: none;
     }
@@ -695,5 +703,11 @@ main{
 @media (max-width: 639px) {
     .container-feed{
         margin-top: -30px;
+    }
+}
+
+@media (max-width: 420px){
+    .container{
+        max-width: 600px !important;    
     }
 }
