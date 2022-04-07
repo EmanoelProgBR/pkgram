@@ -588,23 +588,16 @@ main{
     cursor: pointer;
 }
 
-.nav-list a{
-    text-decoration: none;
-    color: inherit;
-}
-
-.nav-list a:hover{
-    color: inherit;
-}
-
 .nav-list span:active{
     filter: opacity(60%);
 }
 
-
-.idioma {
+.nav-list p{
     cursor: pointer;
-    width: 20px;
+}
+
+.nav-list p:active{
+    filter: opacity(60%);
 }
 
 .idioma:active{
